@@ -1,0 +1,422 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#startSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#hugeWebLogo {
+    font-family: Inter;
+    font-size: 128px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#hugeMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hugeMenuItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    margin: 0px 60px;
+    font-size: 50px;
+    background-color: blueviolet;
+}
+
+.hugeMenuItem-text {
+    font-family: Inter;
+    color: white;
+}
+
+.hugeMenuItem-image {
+    width: 180px;
+    height: 180px;
+}
+
+#menuBottomText {
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+#menuBottomButton {
+    background-color: #D9D9D9;
+    width: '52px';
+    height: '40px';
+    margin-left: '1400px';
+    border-radius: '5px';
+    text-align: 'center';
+    padding-top: '12px';
+}
+
+#topMenu {
+    width: 100%;
+    height: 8vh;
+    background-color: #6F48D5;
+    display: flex;
+    flex-direction: row;
+}
+
+#smallLogo {
+    color: white;
+    font-family: Inter;
+    font-size: 22px;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+#topMenuButtonsSection {
+    margin-left: 1050px;
+    display: flex;
+    flex-direction: row;
+}
+
+.topMenuButton {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    border-color: #B0A1DB;
+    padding-top: 7px;
+    margin: 7px 0px 10px 60px;
+    text-align: center;
+}
+
+#txtArea {
+    margin-top: 20px;
+    height: 200px;
+}
+
+#fractalsWorkingZone {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#colorsWorkingZone {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#fractalRenderMenu {
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20vw;
+    height: 80%;
+    border-radius: 3vh;
+    margin: 3% 0% 0% 5%;
+    background-color: white;
+}
+
+#colorsRenderMenu {
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20vw;
+    height: 80%;
+    border-radius: 3vh;
+    margin: 3% 0% 0% 5%;
+    background-color: black;
+    color: black;
+}
+
+.RenderMenuTitle {
+    margin-top: 2vh;
+    font-size: 3vh;
+    color: black;
+}
+
+#RenderMenuButtons {
+    font-size: 2vh;
+    color: black;
+    margin-top: 5vh;
+}
+
+.sendBut {
+    background-color: darkslategray;
+    color: white;
+    border-radius: 2vh;
+    margin-top: 90px;
+    margin-left: 5%;
+    width: 90%;
+    height: 10%;
+}
+
+.RenderMenuButton {
+    border-radius: 10px;
+    background-color: lightgray;
+    padding-top: 15px;
+    margin-left: 5%;
+    margin-top: 8%;
+    width: 90%;
+    height: 15%;
+}
+
+#fractalInputSection {
+    margin-left: 5%;
+    margin-top: 20vh;
+    color: white;
+}
+
+#iterationsSection {
+    display: flex;
+    flex-direction: row;
+}
+
+#iterationsEnter {
+    margin-left: 10%;
+    border-radius: 1vh;
+    width: 60%;
+    height: 25%;
+    background-color: #D9D9D9;
+    color: black;
+}
+
+#fractalRenderButton {
+    background-color: #34988D;
+    border-radius: 1vh;
+    width: 90%;
+    height: 30%;
+    padding-top: 0.5vh;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+#fields {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 420px;
+    margin: 12% 0% 0% 25%;
+    margin-top: 10%;
+}
+
+.bottomZone {
+    font-family: Inter;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+}
+
+#helpTextSection {
+    margin-top: 1%;
+    height: 80%;
+    width: 20vw;
+    color: black;
+    margin-left: 5%;
+    font-size: 2vh;
+}
+
+#downloadFractalSection {
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    margin-left: 31vw;
+}
+
+#downloadColorSection {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    margin-left: 11vw;
+}
+
+#downloadText {
+    height: 40%;
+    margin-top: 2%;
+    color: black;
+    width: 40%;
+}
+
+#downloadButton {
+    background-color: #D9D9D9;
+    color: black;
+    vertical-align: middle;
+    margin-top: 2%;
+    width: 25%;
+    height: 40%;
+    padding-top: 2.5%;
+    border-radius: 1vh;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.downloadButtonColor {
+    background-color: #D9D9D9;
+    color: black;
+    vertical-align: middle;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 45%;
+    height: 40%;
+    padding-top: 1.5%;
+    border-radius: 1vh;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#helpButton {
+    background-color: #D9D9D9;
+    width: 8%;
+    height: 40%;
+    margin-left: 8%;
+    margin-top: 2%;
+    border-radius: 1vh;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#helpButtonColor {
+    background-color: #D9D9D9;
+    width: 12%;
+    height: 40%;
+    margin-left: 8%;
+    margin-top: 2%;
+    border-radius: 1vh;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#colorsTypesParameters {
+    margin-top: 5%;
+    width: 100%;
+    ;
+}
+
+.colorParameters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 7%;
+    color: white;
+    margin-top: 5%;
+}
+
+.colorParameter {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+.colorTypeInp {
+    width: 102%;
+    color: white;
+}
+
+#colorsInput {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 12%;
+}
+
+#colorCloseEnter {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 17%;
+    border-radius: 10%;
+}
+
+#LightnessInputSection {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+#colorRenderPart {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: end;
+    justify-self: end;
+}
+
+#renderColorButton {
+    background-color: #34988D;
+    margin-right: 5%;
+    width: 40%;
+    height: 15%;
+    border-radius: 10px;
+    padding-top: 3%;
+    margin-bottom: 5%;
+    margin-top: auto;
+}
+
+#colorsShowCanva {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 3% 0% 5% 22%;
+}
+
+#canvasColorOriginal {
+    background-color: #d9d9d9;
+    border-radius: 5%;
+}
+
+#canvasColorChanged {
+    background-color: #d9d9d9;
+    border-radius: 5%;
+    width: 400px;
+}
+
+#file-input {
+    display: none;
+}
